@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thecatAPI</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Andriel Saletti da Silva">
+    <meta name="keywords" content="gatos, imagens, gerador, gif, felinos, fofura, pelos">
+    <meta name="description" content="Gerador de imagens de gato">
+
+</head>
+<body>
+    <header>
+        <h1>Gerador de imagens <br> de Gato</h1>
+    </header>
+
+    <main>
+        <div class="principal">
+            <div id="imagem-gato1">
+                <div id="imagem-gato"></div>
+                <button class="btnx">Abrir em tela cheia</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="btns">
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: min-content;">
+            <label for="selecionar-raça">Selecione uma raça</label>
+            <select id="selecionar-raça" style="outline: none;"></select>
+        </div>
+
+        <button id="pesquisar-por-raça" class="btn-shine">
+            <span>Gerar imagem</span>
+        </button>
+    </div>
+
+    <footer>
+        <p>Site feito por <span class="span">Andriel</span> com <a style="color: black; text-decoration: none;" target="_blank" href="https://thecatapi.com/"><span class="span">The Cat API</span></a></p>
+    </footer>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
